@@ -27,3 +27,13 @@ Incluye funcionalidades de carga, búsqueda, ordenamiento y generación de repor
 - **Paradigma**: Programación Orientada a Objetos (Herencia, Polimorfismo, Interfaces)
 
 ## 📁 Estructura del Proyecto
+src/
+├── ar/com/centro8/java/concesionaria/
+│   ├── entidades/
+│   │   ├── Vehiculo.java          (abstracta)
+│   │   ├── Auto.java
+│   │   └── Moto.java
+│   ├── interfaces/
+│   │   └── IServicio.java
+│   └── tests/
+│       └── TestConcesionaria.java  (implementa IServicio)
